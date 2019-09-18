@@ -43,4 +43,11 @@ public class ElasticSearchManager {
     public void end(){
         client.close();
     }
+	
+	
+	 @Test
+    public void zhangSan(){
+        System.out.println("张三的方法");
+    }
+	
 }
