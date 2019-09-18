@@ -43,10 +43,15 @@ public class ElasticSearchManager {
     public void end(){
         client.close();
     }
-	
-	@Test
+
+    @Test
     public void liSi(){
        System.out.println("利斯的方法");
     }
-	
-}
+ 	@Test
+    public void zhangSan(){
+        System.out.println("张三的方法");
+    }
+
+
+
