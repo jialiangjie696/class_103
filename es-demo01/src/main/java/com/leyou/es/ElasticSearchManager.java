@@ -43,4 +43,10 @@ public class ElasticSearchManager {
     public void end(){
         client.close();
     }
+	
+	@Test
+    public void liSi(){
+       System.out.println("利斯的方法");
+    }
+	
 }
